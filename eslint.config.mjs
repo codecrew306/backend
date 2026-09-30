@@ -13,6 +13,7 @@ export default [
         sourceType: 'module',
       },
       globals: {
+        fetch: 'readonly',
         console: 'readonly',
         process: 'readonly',
         describe: 'readonly',
